@@ -1,0 +1,12 @@
+hazelcast:
+  management-center:
+    data-access-enabled: true
+  network:
+    join:
+      multicast:
+        enabled: true
+    rest-api:
+      enabled: true
+      endpoint-groups:
+        DATA:
+          enabled: true
